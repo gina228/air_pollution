@@ -10,12 +10,7 @@ class AirPollution::CLI
   end 
   
   def list_cities
-    puts <<-DOC
-      1. New York, New York
-      2. Los Angeles, California
-      3. Cleveland, Ohio
-      4. Honolulu, Hawaii
-    DOC
+    @cities = AirPollution::City.today
   end
     
   def menu
