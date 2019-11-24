@@ -1,5 +1,5 @@
-require "bundler/setup"
-require "air_pollution"
+require "bundler/setup.rb"
+require "air_pollution.rb"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
